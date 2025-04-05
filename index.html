@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warren</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+          emailjs.init({
+          publicKey: "jtm0BtY2Hh-Q8tnrt",
+        });
+        })();
+    </script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <video
+        class="back-vid"
+        loop
+        autoplay
+        muted
+        plays-inline
+        src="videos/galaxy.mp4"
+        type="video/mp4"
+      ></video>
+
+      <header>
+        <div class="left">
+          <img src="images/Wadzo.jpg" alt="logo" />
+          <h1><span style="color: #72a1de">Warren</span> Nyanhete</h1>
+        </div>
+
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+
+        <div class="box-icons">
+          <a href="https://wa.me/0713983192" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://github.com/WarrenTrey" ><i class="bx bxl-github"></i></a>
+          <a href="https://zw.linkedin.com/in/warren-nyanhete-215863333" target="_blank"><i class="bx bxl-linkedin-square"></i> </a>
+        </div>
+
+        <div class="menu-icon"><i class='bx bx-menu'></i></div>
+      </header>
+
+      <div class="sidebar">
+        <div class="close-icon">
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="https://github.com/WarrenTrey" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://wa.me/0713983192" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://zw.linkedin.com/in/warren-nyanhete-215863333" target="_blank"><i class="bx bxl-linkedin-square"></i> </a>
+        </div>
+      </div>
+
+      <div class="blackhole-box">
+        <video
+          loop
+          autoplay
+          muted
+          plays-inline
+          src="videos/blackhole.mp4"
+          type="video/mp4"
+        ></video>
+      </div>
+      <section class="hero">
+        <div class="hero-info autoBlur">
+          <div class="hero-info-title">
+            <i class="bx bxl-sketch"></i>
+            Software Developer Portfolio
+          </div>
+
+          <h1>
+            Providing <span class="gradient">the best</span> Project
+            <span class="gradient">Experience</span>
+          </h1>
+
+          <p>
+            I'm a Software developer with experience in website, mobile and
+            software development. Check out my skills.
+          </p>
+          <button onclick="window.location.href='mailto:warrennyanhetet@gmail.com';"><i class="bx bx-send"></i>Contact Me</button>
+        </div>
+        <div class="hero-vid-box">
+          <video class="autoBlur"
+            autoplay
+            loop
+            muted
+            plays-inline
+            src="videos/hero-video.mp4"
+            type="video/mp4"
+          ></video>
+        </div>
+        <div class="scroll-down"></div>
+      </section>
+
+      <section class="info-section">
+        <h1 class="section-title autoDisplay">Hello, There</h1>
+        <div class="info-cards">
+          <div class="card">
+            <h1>Hi there, I'm Warren</h1>
+            <p>
+              I have honed my skills in frontend and backend development,
+              creating dynamic and responsive website.
+            </p>
+
+            <img src="images/grid1.png" alt="card-image" />
+          </div>
+
+          <div class="card">
+            <h1>Tech Stack</h1>
+            <p>
+              I specialize in a variety of languages, frameworks and tools that
+              allow me to build robust and scalable applications.
+            </p>
+
+            <img src="images/grid2.png" alt="card-image" />
+          </div>
+
+          <div class="card">
+            <h1>I'm very flexible with time zone communications & locations</h1>
+            <p>
+              I'm based in Harare, Zimbabwe and open to remote work worldwide.
+            </p>
+
+            <video
+              autoplay
+              loop
+              muted
+              plays-inline
+              src="videos/glob.mp4"
+              type="video/mp4"
+            ></video>
+            <button onclick="window.location.href='mailto:warrennyanhetet@gmail.com';"><i class="bx bx-link-external"></i>Contact Me</button>
+          </div>
+
+          <div class="card">
+            <h1>My passion for Coding</h1>
+            <p>
+              I love solving problems and building things through code.
+              Programming isn't just my profession, it's my passion. I enjoy
+              exploring new technologies and enhancing my skills.
+            </p>
+
+            <img src="images/grid4.png" alt="card-image" />
+          </div>
+        </div>
+      </section>
+
+      <section class="my-projects">
+        <h1 class="section-title autoDisplay">My Projects</h1>
+        <div class="project-card">
+          <div class="project-vidbox autoBlur">
+            <video id="projectVideo1" src="videos/Super delicious food.mp4"></video>
+            <div class="hover-sign"></div>
+          </div>
+
+          <div class="project-info fadeInRight">
+            <h1>Delicious <span class="gradient">Food</span> Website</h1>
+            <p>
+              Welcome to Foodie, where delicious flavors meet cozy ambiance.
+              Explore our menu, featuring fresh, locally sourced ingredients and
+              expertly crafted dishes. Enjoy online ordering, reservations,
+              and exclusive offers. Taste the difference today!
+            </p>
+            <button onclick="document.location='https://warrentrey.github.io/Fast-Food-Website/'"><i class="bx bx-link-external"></i>Website</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-vidbox autoBlur">
+            <video id="projectVideo2" src="videos/Responsive watches website.mp4"></video>
+          </div>
+
+          <div class="project-info fadeInRight">
+            <h1>Responsive <span class="gradient">Watches</span> Website</h1>
+            <p>
+              Explore my Watches website design, your destination for exquisite timepieces.
+              From elegant luxury watches to durable sports models, each piece combines 
+              craftsmanship and style. Shop with confidence, enjoy detailed specifications,
+              and find the perfect watch to match your lifestyle.
+            </p>
+            <button onclick="document.location='https://warrentrey.github.io/Watches-Website-Design/'"><i class="bx bx-link-external"></i>Website</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-vidbox autoBlur">
+            <video id="projectVideo3" src="videos/Get Quality Furniture.mp4"></video>
+          </div>
+
+          <div class="project-info fadeInRight">
+            <h1>Quality <span class="gradient">Furniture</span> Website</h1>
+            <p>
+              Discover premium furniture at our Quality website, 
+              where style meets comfort. Browse our carefully curated collection of handcrafted,
+              durable pieces for every room. With personalized design options and
+              seamless online shopping, transform your space with timeless elegance.
+            </p>
+            
+            <button onclick="document.location='https://warrentrey.github.io/E-Commerce-Furniture-Website/'"><i class="bx bx-link-external"></i>Website</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section">
+        <h1 class="section-title autoDisplay">My Skills</h1>
+
+        <div class="skills-box">
+          <img
+            class="skills-image"
+            src="images/digital brain.png"
+            alt="skills-image"
+          />
+          <div class="designer autoDisplay">
+            <h1 class="gradient">Designer<i class="bx bx-laptop"></i></h1>
+            <p>
+              I have expertise in HTML, CSS, JavaScript and design tools like
+              Figma and Adobe Photoshop. My strength lies in blending aesthetics
+              with functionality to create seamless user experiences.
+            </p>
+          </div>
+
+          <div class="coder autoDisplay">
+            <h1 class="gradient">Coder<i class="bx bx-code"></i></h1>
+            <p>
+              I use frameworks like React, Laravel and Django. I also have
+              experience with database management using MySQL and MongoDB.
+            </p>
+          </div>
+
+          <div
+            class="slider"
+            reverse="true"
+            style="--width: 100px; --height: 100px; --quantity: 9"
+          >
+          <div class="list">
+            <div class="item" style="--position: 1">
+              <img src="images/1.png" alt="slider-image" />
+            </div>
+            <div class="item" style="--position: 2">
+              <img src="images/2.png" alt="slider-image" />
+            </div>
+            <div class="item" style="--position: 3">
+              <img src="images/3.png" alt="slider-image" />
+            </div>
+            <div class="item" style="--position: 4">
+              <img src="images/4.png" alt="slider-image" />
+            </div>
+            <div class="item" style="--position: 5">
+              <img src="images/5.png" alt="slider-image" />
+            </div>
+            <div class="item" style="--position: 6">
+              <img src="images/6.png" alt="slider-image" />
+            </div>
+            <div class="item" style="--position: 7">
+              <img src="images/7.png" alt="slider-image" />
+            </div>
+            <div class="item" style="--position: 8">
+              <img src="images/8.png" alt="slider-image" />
+            </div>
+            <div class="item" style="--position: 9">
+              <img src="images/9.png" alt="slider-image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <h1 class="section-title autoDisplay ">
+          Let's talk🙂
+        </h1>
+        <div class="social-box autoBlur">
+          <a href="#"><i class='bx bxs-phone-call' ></i> +263 71 398 3192</a>
+          <a href="https://t.me/Warren"><i class='bx bxl-telegram' ></i>Telegram.com</a>
+          <a href="https://zw.linkedin.com/in/warren-nyanhete-215863333" target="_blank"><i class='bx bxl-linkedin-square' ></i>LinkedIn.com</a>
+
+          <div class="social-icons">
+            <a href="https://x.com/wadzo776" target="_blank"><i class='bx bx-x' ></i></a>
+            <a href="https://www.facebook.com/Warren Nyanhete" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+            <a href="https://www.instagram.com/warrennyanhetet" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-box autoBlur">
+          <p>Whether you want to build a new website, improve your existing platform,
+             or bring a unique project to file. I'm here to help.</p>
+             <form>
+               <p>Full Name</p>
+               <input  type="text" id="name" name="name" required placeholder="Full Name"/>
+
+               <p>Email Address</p>
+               <input type="email" id="email" name="email" required placeholder="Your Email"/>
+
+               <p>Message</p>
+               <input class="message" type="text" id="message" name="message" required placeholder="Share your thoughts..."/>
+
+               <button type="submit" onclick="sendMail()"><i class='bx bx-send' >Send Message</i></button>
+             </form> 
+        </div>
+      </section>
+
+      <footer>
+        <h1>Copyright © Warren, Made with 💖 by Warren Trey</h1>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
