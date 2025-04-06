@@ -862,7 +862,7 @@ footer h1 {
 
 /*TABLET RESPONSIVENESS*/
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   .blackhole-box video {
     margin-top: -20%;
   }
@@ -930,7 +930,7 @@ footer h1 {
 }
 
 /*MOBILE RESPONSIVE*/
-@media (max-width: 576px) {
+@media (max-width: 700px) {
   header {
     position: fixed;
     height: 50px;
