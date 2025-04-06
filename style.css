@@ -366,7 +366,7 @@ header ul a {
   bottom: 35%;
 }
 
-/*My Projects*/
+/*My Projects */
 .my-projects {
   display: flex;
   flex-direction: column;
@@ -492,6 +492,7 @@ header ul a {
 }
 
 /*Skills Section*/
+
 .skills-section {
   display: flex;
   flex-direction: column;
@@ -861,7 +862,7 @@ footer h1 {
 
 /*TABLET RESPONSIVENESS*/
 
-@media screen and (max-width: 1000px) {
+@media (max-width: 768px) {
   .blackhole-box video {
     margin-top: -20%;
   }
@@ -929,13 +930,14 @@ footer h1 {
 }
 
 /*MOBILE RESPONSIVE*/
-@media screen and(max-width: 700px) {
+@media (max-width: 576px) {
   header {
     position: fixed;
     height: 50px;
   }
   header ul {
     display: none;
+    visibility: hidden;
   }
   header .box-icons {
     display: none;
