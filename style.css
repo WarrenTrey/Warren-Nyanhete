@@ -862,7 +862,7 @@ footer h1 {
 
 /*TABLET RESPONSIVENESS*/
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
   .blackhole-box video {
     margin-top: -20%;
   }
@@ -885,7 +885,8 @@ footer h1 {
     font-size: 30px;
   }
   .info-cards {
-    grid-template-columns: auto;
+    display: flex;
+    /* grid-template-columns: auto; */
   }
   .card:nth-child(3) {
     grid-column: span 2;
@@ -930,7 +931,7 @@ footer h1 {
 }
 
 /*MOBILE RESPONSIVE*/
-@media (max-width: 700px) {
+@media (max-width: 576px) {
   header {
     position: fixed;
     height: 50px;
@@ -1027,5 +1028,12 @@ footer h1 {
   }
   .menu-icon {
     display: inline;
+  }
+  .info-cards {
+    flex-direction: column;
+  }
+
+  .card {
+    min-width: 80%;
   }
 }
